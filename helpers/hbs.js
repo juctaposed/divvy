@@ -16,6 +16,17 @@ module.exports = {
         return str
     },
     stripTags: function (input) {
-        return input.replace(/<(?:.|\n)*?>/gm, '') //replace any html tags( <> ) with nothing
-      }
+        return input.replace(/<(?:.|\n)*?>/gm, '') //regex to replace any html tags(within <>) with nothing on pub stories
+    },
+    editIcon: function (storyUser, loggedUser, storyId, floating = true) {
+        if (storyUser._id.toString() == loggedUser._id.toString()) {
+          if (floating) {
+            return `<a href="/stories/edit/${storyId}" class="btn-floating halfway-fab blue"><i class="fas fa-edit fa-small"></i></a>`
+          } else {
+            return `<a href="/stories/edit/${storyId}"><i class="fas fa-edit"></i></a>`
+          }
+        } else {
+          return ''
+        }
+    },
 }
