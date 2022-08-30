@@ -1,5 +1,5 @@
 {
-  "name": "story-books",
+  "name": "divvy",
   "version": "1.0.0",
   "description": "App to create public and private stories",
   "main": "app.js",
@@ -7,7 +7,7 @@
     "start": "cross-env NODE_ENV=production node app",
     "dev": "cross-env NODE_ENV=development nodemon app"
   },
-  "author": "Justin C",
+  "author": "Justin Coughenour",
   "license": "MIT",
   "dependencies": {
     "connect-mongo": "^4.6.0",
