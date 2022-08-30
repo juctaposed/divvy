@@ -11,13 +11,13 @@ An interface for individuals to share, or "divvy" their stories with one another
 
 By following an **MVC Framework**, I was able to:
 
-Organized the app to use Google OAuth2.0 for user authentication to login and access user stories. 
+Organize the app to use Google OAuth2.0 for user authentication to login and access user stories. 
 
-Applied User schemas via Mongoose to talk to the database and structure relevant data such as user ID, first/last name, and profile picture.
+Apply User schemas via Mongoose to talk to the database and structure relevant data made with requests such as user ID, first/last name, and profile picture.
 
-Used handlebars to structure the view templates of adding, editing, and showing stories as well as the login page and dashboard interface.
+Use handlebars to structure the view templates of adding, editing, and showing stories as well as the login page and dashboard interface.
 
-Routed HTTP handlers to their appropriate controller, i.e. /google for Authenticating with Google, and a redirect to landing if Authentication fails.
+Route HTTP handlers to their appropriate controller, i.e. /google for Authenticating with Google, and a redirect to landing if Authentication fails.
 
 # Optimizations
 Even though I am not a designer, I would like to add more design to this site when I have the opportunity. I'm extremely happy with the functionality, but theres still 
