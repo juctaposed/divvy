@@ -21,7 +21,7 @@ Route HTTP handlers to their appropriate controller, i.e. /google for Authentica
 
 # Optimizations
 Even though I am not a designer, I would like to add more design to this site when I have the opportunity. I'm extremely happy with the functionality, but theres still 
-something to be desired in terms of UX. I also would perhaps use Bulma instead of Materialize CSS, as it may have provided more flexibility as I try to scale this project.
+something to be desired in terms of UX. I also would perhaps have used Bulma instead of Materialize CSS, as it may have provided more flexibility as I try to scale this project.
 
 # Lessons Learned
 One of the most vital things I learned from this project was using Google Authentication/Passport.js - it was awesome to see and compare the different ways to authenticate
