@@ -29,7 +29,7 @@ module.exports = function (passport) {
                 done(null, user)
             }
         } catch (error) {
-            console.error(err)
+            console.log(error)
         }
         console.log(profile)
     }))
