@@ -1,8 +1,8 @@
 //Strategy from passportjs goes here
 const GoogleStrategy = require('passport-google-oauth20').Strategy
 const mongoose = require('mongoose')
-const User = require('../models/User')
-const UserSchema = require('../models/User')
+const User = require('../models/user')
+const UserSchema = require('../models/user')
 
 module.exports = function (passport) {
     passport.use(new GoogleStrategy({
