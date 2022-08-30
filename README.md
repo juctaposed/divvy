@@ -1,5 +1,5 @@
 # Divvy
-An interface for individuals to share, or "divvy" their stories to one another
+An interface for individuals to share, or "divvy" their stories with one another
 
 **Link to Project:** https://divvy-your-stories.herokuapp.com/
 
